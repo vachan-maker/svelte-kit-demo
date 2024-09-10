@@ -7,7 +7,7 @@
         title = "Function Updated";
     }
 </script>
-<Title />
+<Title title = "Main Page (Reusable component)"/>
 <h1>Welcome to SvelteKit</h1>
 <p>Counter {count}</p>
 <h3>{title}</h3>

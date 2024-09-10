@@ -1,5 +1,8 @@
+<script>
+    export let title = "Svelte Demo";
+</script>
 <div>
-    <h1>Title From Reusable Component</h1>
+    <h1>{title}</h1>
     <hr/>
 </div>
 <style>
