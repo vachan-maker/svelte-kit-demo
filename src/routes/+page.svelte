@@ -1,4 +1,5 @@
 <script>
+    import Title from "../lib/title.svelte";
     let title = "Scene"
     let count = 0;
     function incrementBtn() {
@@ -6,6 +7,7 @@
         title = "Function Updated";
     }
 </script>
+<Title />
 <h1>Welcome to SvelteKit</h1>
 <p>Counter {count}</p>
 <h3>{title}</h3>
@@ -17,6 +19,7 @@
 </div>
 <input type="text" bind:value={title}>
 <button on:click={incrementBtn}>Increment</button>
+<a href="/about">Go to About Page</a>
 <style>
     h2 {
         color:red;
