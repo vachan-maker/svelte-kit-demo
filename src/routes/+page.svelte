@@ -20,6 +20,7 @@
 <input type="text" bind:value={title}>
 <button on:click={incrementBtn}>Increment</button>
 <a href="/about">Go to About Page</a>
+<a href="/guides">Surprise</a>
 <style>
     h2 {
         color:red;
